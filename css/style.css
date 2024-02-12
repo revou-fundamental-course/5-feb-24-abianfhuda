@@ -1,0 +1,131 @@
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-pj{
+    height: min-content;
+    margin-top: 0;
+}
+
+.navigation>a{
+    text-decoration: none;
+    padding: 8px;
+}
+
+.navigation:hover{
+    color: lightseagreen;
+}
+/*input selct*/
+
+.input-slect{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box{
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 60px;
+    width: 50%;
+}
+
+.input-box:focus{
+    border: solid lightblue;
+}
+
+/*button klik*/
+
+.button-1{
+    background-color: #bc1639;
+    outline: none;
+    border-radius: 8px;
+    border: solid none;
+    padding: 6px 6px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+     overflow: hidden;
+     color: #ffffff;
+     box-shadow: #5e0b1d 0px 2px 0px 0px;
+     border: none;
+}
+
+.button-1:focus{
+    border:solid #5e0b1d;
+}
+
+
+.button-2{
+    background-color: #44ab21;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    border: solid none;
+    padding: 6px 6px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+     overflow: hidden;
+     color: #ffffff;
+     box-shadow: #265f13 0px 2px 0px 0px;
+     border: none;
+
+     .button-2:focus{
+        border:solid #265f13;
+     }
+
+}
+.button-3{
+    background-color: #13d6d8;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    border: solid none;
+    padding: 6px 6px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+     overflow: hidden;
+     color: #ffffff;
+     box-shadow: #0a6b6c 0px 2px 0px 0px;
+     border: none;
+}
+
+.button-3:focus{
+    border: solid #0a6b6c;
+}
+
+.output-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.output-box{
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 60px;
+    width: 50%;
+}
+
+.input-fix{
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 60px;
+    width: 50%;
+}
